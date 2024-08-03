@@ -1,0 +1,117 @@
+
+
+% Qué tipo de documento estamos por comenzar:
+\documentclass[12pt]{article} 
+% Esto es para que el LaTeX sepa que el texto está en español:
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+% Esto es para poder escribir acentos directamente:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+
+
+%% Asigna un tamaño a la hoja y los márgenes
+\usepackage[letterpaper,top=2.4cm,bottom=2.4cm,left=2.4cm,right=2.4cm,marginparwidth=1.5cm]{geometry}
+
+%% Paquetes de la AMS
+\usepackage{amsmath, amsthm, amsfonts}
+%% Para añadir archivos con extensión pdf, jpg, png or tif
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+%% Primero escribimos el título
+\title{BUENAS PRÁCTICAS PARA EL DESARROLLO DE APLICACIONES ÁGILES}
+\author{J. P. Araiz López\\
+  \small 7690-17-9477 Universidad Mariano Gálvez\\
+  \small Seminario de Tecnologías de Información\\
+  \small jaraizl@miumg.edu.gt
+}
+
+
+
+\begin{document}
+%% Hay que decirle que incluya el título en el documento
+\maketitle
+
+%% Aquí podemos añadir un resumen del trabajo (o del artículo en su caso) 
+\begin{abstract}
+El desarrollo ágil de aplicaciones se basa en el manifiesto ágil que resume los valores y principios para aplicar correctamente la metodología, en este artículo conoceremos un poco sobre estos valores y principios, también algunas de las mejores prácticas para el desarrollo ágil y por qué se deben de realizar.
+
+\end{abstract}
+\maketitle{}
+
+%% Iniciamos "secciones" que servirán como subtítulos
+%% Nota que hay otra manera de añadir acentos
+
+\section*{Palabras Clave}
+Mejora, Comunicación, Continuo 
+
+\section*{Metodología Ágil}
+
+Para comenzar debemos conocer a que nos referimos cuando se habla de desarrollo ágil, esto se refiere a un concepto de gestión de proyectos que busca hacer dividir el proyecto en diferentes fases las cuales se irán entregando de forma continua, el desarrollo o metodología ágil hace mucho énfasis en la colaboración y la mejora continua.
+
+Según el manifiesto ágil, existen 4 valores que promueven los modelos de organización enfocados principalmente en las personas y la colaboración entre ellas, estos valores son: 
+\begin{itemize}
+\item Individuos e interacciones sobre procesos y herramientas.
+\item Software funcionando sobre documentación extensiva.
+\item Colaboración con el cliente sobre negociación contractual.
+\item Respuesta ante el cambio sobre seguir un plan.
+\end{itemize}
+
+Esta metodología también  nos presenta 12 principios que ayudara a la correcta aplicación de la metodología ágil, estos principios buscan satisfacer al cliente mediante la entrega constante y eficaz, los principios son:
+\begin{itemize}
+\item Satisfacer al cliente de forma constante.
+\item Los cambios son bienvenidos.
+\item El trabajo se realiza en fases con tiempos cortos definidos.
+\item Medir el progreso.
+\item Continuidad del proyecto.
+\item Trabajo organizado.
+\item Comunicación entre todos los interesados.
+\item Motivar y generar confianza entre los miembros del proyecto.
+\item Excelencia técnica y un buen diseño.
+\item Las tareas deber ser los más sencillas posible.
+\item Equipos autogestionados.
+\item Adaptación a las circunstancias.
+\end{itemize}
+
+\section*{Buenas Practicas para el Desarrollo Ágil }
+El desarrollo ágil se ha convertido en un estándar para la realización de proyectos ya que se maneja de una forma flexible y eficiente, por lo que existen una serie de buenas prácticas que ayudan a mejorar y garantizar un desarrollo de aplicaciones ágil.
+Definir claramente los requisitos, esto se podría decir que es una parte fundamental del desarrollo ágil, esto debido a que se debe tener una visión inicial clara de lo que se debe realizar.\\ 
+
+Entregas frecuentes, se deben definir iteraciones cortas para el desarrollo ágil, ya que esto ayuda a recibir una retroalimentación continúa ayudando a que el proyecto evolucione según las necesidades del cliente.\\ 
+
+Comunicación constante, la comunicación efectiva entre cada miembro del equipo y los interesados es importante ya que esto ayuda a mantener informados a todos sobre el avance o dificultades que se tengan en el proyecto.\\ 
+
+Pruebas automatizadas, es recomendable realizar continuamente pruebas automatizadas para garantizar que el proyecto sea funcional y minimice la cantidad de errores en el mismo.\\ 
+
+Refinamiento constante del producto, es importante mantener relevante y priorizado el feedback que se recibe para asegurar que el equipo este siempre trabajando en lo que más relevante del proyecto.\\ 
+
+Documentación eficiente, es importante realizar la documentación de la forma más ligera, pero a la vez que sea lo más eficaz posible, teniendo como objetivo, proporcionar la suficiente información para que el equipo pueda trabajar.\\ 
+
+Involucrar al cliente, la participación constante del cliente es fundamental para que el proyecto final cumpla con todas sus necesidades.\\ 
+
+Trabajo en equipo, es importante que cada miembro tenga la autonomía para tomar decisiones y pueda organizar su trabajo de forma eficiente, pero también es importante promover la comunicación y colaboración entre todos los miembros del equipo\\ 
+
+Mejora continua, es importa reflexionar después de cada entrega sobre lo que se hizo bien y lo que se debe mejorar, también es importante mantener una capacitación constante del equipo.
+
+
+\section*{Observaciones y Comentarios}
+El desarrollo ágil se basa en un manifiesto el cual nos da una orientación del objetivo de la metodología ágil, pero no es una ley o norma, ya que esto se puede adaptar según la necesidad del proyecto. El desarrollo ágil suele atribuirse a la metodología SCRUM, pero este no es el único enfoque puesto que existen otros enfoques que también promueven un enfoque ágil, como lo es DevOps o Kanban.
+
+
+\section*{Conclusiones}
+El desarrollo ágil se ha convertido en un pilar importante en la realización de proyectos de desarrollo de software, por lo que se hace necesario entender y conocer algunas de las practicas que se realizan con esta metodología.
+
+\begin{thebibliography}{9}
+\bibitem{UdlA}\textit{¿El manifiesto ágil sigue estando disponible?} [En linea]. Disponible en:\\ \url{https://www.atlassian.com/es/agile/manifesto}
+\bibitem{FC}\textit{Principios detrás del Manifiesto Ágil} [En linea]. Disponible en:\\ \url{https://agilemanifesto.org/principles.html }
+\bibitem{pega}\textit{Buenas prácticas para el desarrollo de aplicaciones ágiles} [En linea]. Disponible en:\\ \url{https://academy.pega.com/es/topic/agile-development-best-practices/v5}
+\bibitem{cognodata}\textit{12 principios de la metodología agile en el desarrollo de proyectos} [En linea]. Disponible en:\\ \url{https://www.cognodata.com/blog/principios-metodologia-agile-desarrollo-proyectos/}
+
+
+\end{thebibliography}
+
+Repositorio git disponible en:\\ \url{https://github.com/JaraizL/SEMINARIO-DE-TECNOLOG-AS.git}
+\end{document}
