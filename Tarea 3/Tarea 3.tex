@@ -1,0 +1,110 @@
+
+
+% Qué tipo de documento estamos por comenzar:
+\documentclass[12pt]{article} 
+% Esto es para que el LaTeX sepa que el texto está en español:
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+% Esto es para poder escribir acentos directamente:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+
+
+%% Asigna un tamaño a la hoja y los márgenes
+\usepackage[letterpaper,top=2.4cm,bottom=2.4cm,left=2.4cm,right=2.4cm,marginparwidth=1.5cm]{geometry}
+
+%% Paquetes de la AMS
+\usepackage{amsmath, amsthm, amsfonts}
+%% Para añadir archivos con extensión pdf, jpg, png or tif
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+%% Primero escribimos el título
+\title{CIBERSEGURIDAD, SEGURIDAD INFORMÁTICA Y SEGURIDAD E LA INFORMACIÓN}
+\author{J. P. Araiz López\\
+  \small 7690-17-9477 Universidad Mariano Gálvez\\
+  \small Seminario de Tecnologías de Información\\
+  \small jaraizl@miumg.edu.gt
+}
+
+
+
+\begin{document}
+%% Hay que decirle que incluya el título en el documento
+\maketitle
+
+%% Aquí podemos añadir un resumen del trabajo (o del artículo en su caso) 
+\begin{abstract}
+En este artículo hablaremos un poco sobre la ciberseguridad, la seguridad de la información y la seguridad informática ya que son conceptos interrelacionados pero con enfoques distintos, la ciberseguridad se refiere a la protección de sistemas informáticos y redes contra ataques cibernéticos, que pueden involucrar malware, phishing, o hacking, la seguridad de la información tiene un alcance más amplio e incluye la protección de todos los tipos de información, ya sea digital, física o verbal y la seguridad informática, por su parte, se enfoca específicamente en la protección de sistemas informáticos y los datos que estos procesan. 
+
+\end{abstract}
+\maketitle{}
+
+%% Iniciamos "secciones" que servirán como subtítulos
+%% Nota que hay otra manera de añadir acentos
+
+\section*{Palabras Clave}
+Ciberataque, Vulnerabilidad, Seguridad
+
+\section*{Ciberseguridad}
+
+Es la acción de proteger los equipos, redes, aplicaciones o cualquier dispositivo electrónico de cualquier posible amenaza digital o ciberataque. Los ciberataques tienen el poder de interrumpir, dañar o destruir empresas por lo que se busca mitigar o eliminar los riesgos que estos presentan mediante buenas practicas. 
+\\
+Amenazas más comunes de ciberseguridad
+\begin{itemize}
+\item Malware: el denominado software malicioso, es cualquier código o programa informático realizado de manera intencionada para dañar algún sistema informático.
+\item Ransomeware: es un tipo de malware específicamente para encriptar datos o dispositivos con la intención de solicitar un rescate por la recuperación de los mismos.
+\item Phishing: principalmente mensajes de correo electronico, texto o mensaje de voz que se utiliza para engañar a los usuarios.
+\item Inyección de códio SQL: utilizado para tomar el control y robar información específicamente de una base de datos.
+\item Man-in-the-middle: son aquellos ataques en los que el cibercriminal intercepta la comunicación entre dos medios para robar datos.
+\item Ataque de denegación de servicios (DDoS): se enfocan en bloquear un servicio específico utilizando la sobrecarga de tráfico, normalmente se utiliza un botnet o una red de servicio para secuestrar el servicio.
+\item Amenaza interna: es un riesgo de seguridad introducido por un personal o usuario con malas intenciones dentro de la organización.
+\end{itemize}
+
+
+\section*{Seguridad Informática}
+Constituye un amplio conjunto de medidas o acciones de protección para evitar que una red informática y sus datos sufran alguna vulneración o ataque. La seguridad informática es esencial para para la prevención de ataques ya que cada vez existe un riesgo mayor para todos los dispositivos que se conectan a una red.\\ 
+
+Tipos de seguridad Informatica
+\begin{itemize}
+\item Seguridad de red: se centra en el resguardo y seguridad de la red informática, impidiendo accesos no autorizados a los recursos de red, detectar posibles ataques o violaciones de red y garantizar al usuario un acceso seguro a los recursos en la red.
+\item Seguridad de aplicaciones: son las medidas que se toman los desarrolladores al momento de crear una aplicación para protegerse de cualquier vulnerabilidad y a su vez puedan proteger sus datos.
+\item Seguridad en internet: proporcionan seguridad al navegar por internet, utilizando cortafuegos que salvaguardan los datos que se procesan en el navegador al utilizar el internet.
+\item Seguridad en la nube: se ha convertido en un elemento básico en la seguridad informática, debido al crecimiento en la utilización de la nube, en general se utilizan software para garantizar la seguridad de aplicaciones o datos publicados en la nube.
+\item Seguridad de terminales: sirve para la protección de dispositivos personales como son los móviles, entre otros.
+\end{itemize}
+
+
+\section*{Seguridad de la información}
+
+Seguridad de la información se refiere al conjunto de procedimientos, acciones o herramientas utilizadas para proteger la integridad de los datos, contra cualquier acceso, divulgación o uso no autorizado. 
+
+\subsection{Principios de la seguridad de la información}
+
+La CID, presentada en 1977 tiene como objetivo guiar a las organizaciones en la elección de tecnologías, políticas y prácticas para la protección de los sistemas de información. La CID esta compuestas por estos elementos:
+\begin{itemize}
+\item Confidencialidad: ninguna persona puede acceder a datos para lo que cuales no se tiene autorización.
+\item Integridad: toda información contenida en las bases de datos es completa, precisa y no ha sido manipulada.
+\item Disponibilidad: los usuarios pueden acceder a la información a la que se está autorizado cuando le sea necesario.
+\end{itemize}
+
+\section*{Observaciones y Comentarios}
+Los temas de ciberseguridad, seguridad informática y seguridad de la información aunque pareciesen lo mismo no lo son, cada uno tiene un enfoque específico y aunque puedan ser parte de un mismo entorno cada uno con lleva ciertas practicas especificas que unidas todas ayudan a evitar o miticar cualquier ataque mal intencionado que puedar recibir nuestras aplicaciones o dispositivos.
+
+
+\section*{Conclusiones}
+La seguridad informática, seguridad de la información y ciberseguridad, son temas que han tenido un aumento de importancia a nivel mundial, ya que el aumento de las tecnologías y que cada vez el mundo está más conectado ha implicado también un aumento en los ataques de  personas mal intencionadas, por lo que se hace vital poder estar al día con estas buenas prácticas para evitar un riesgo que represente pérdidas para las empresas.
+
+\begin{thebibliography}{9}
+\bibitem{AWS}\textit{¿Qué es la ciberseguridad?} [En linea]. Disponible en:\\ \url{https://aws.amazon.com/es/what-is/cybersecurity/}
+\bibitem{KPS}\textit{¿Qué es la ciberseguridad? }[En linea]. Disponible en:\\ \url{https://latam.kaspersky.com/resource-center/definitions/what-is-cyber-security}
+\bibitem{IBMC}\textit{¿Qué es la ciberseguridad?} [En linea]. Disponible en:\\ \url{https://www.ibm.com/es-es/topics/cybersecurity}
+\bibitem{IMBIT}\textit{¿Qué es la seguridad de TI?} [En linea]. Disponible en:\\ \url{https://www.ibm.com/mx-es/topics/it-security}
+\bibitem{IBMIS}\textit{¿Qué es la seguridad de la información?} [En linea]. Disponible en:\\ \url{https://www.ibm.com/es-es/topics/information-security}
+
+\end{thebibliography}
+
+Repositorio git disponible en:\\ \url{https://github.com/JaraizL/SEMINARIO-DE-TECNOLOG-AS.git}
+\end{document}
